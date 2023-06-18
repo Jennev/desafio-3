@@ -1,5 +1,4 @@
-// import { useState } from 'react'
-// import viteLogo from '/vite.svg'
+import { useState } from 'react'
 import './App.css'
 
 import Listado from './Components/Listado'
@@ -8,6 +7,8 @@ import Buscador from './Components/Buscador'
 import Alert from './Components/Alert'
 
 import { BaseColaboradores } from './BaseColaboradores'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
