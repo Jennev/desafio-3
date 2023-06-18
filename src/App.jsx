@@ -7,6 +7,8 @@ import Formulario from './Components/Formulario'
 import Buscador from './Components/Buscador'
 import Alert from './Components/Alert'
 
+import { BaseColaboradores } from './BaseColaboradores'
+
 
 
 function App() {
