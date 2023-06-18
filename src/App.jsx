@@ -12,17 +12,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-function App() {
-
+const App = () => {
+  const [colaboradores, setColaboradores] = useState(BaseColaboradores);
 
   return (
-    <>
-      <div>
+    <div>
+      <h1> Lista de Colaboradores</h1>
+
+      <div className='row'>
+        <div>
+          <Listado />
+        </div>
 
       </div>
 
-    </>
+
+
+
+    </div>
   )
 }
 
-export default App
+export default App;
