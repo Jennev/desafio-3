@@ -1,3 +1,8 @@
+.container-none {
+  height: 100vh;
+
+  background: rgb(255, 251, 12);
+}
 
 /*
 #root {
