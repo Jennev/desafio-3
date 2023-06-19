@@ -32,7 +32,6 @@
 
 @media screen and (max-width: 800px) {
   #title-second{
-    color: blue;
     text-align: center;
     font-size: 3rem;
   }
