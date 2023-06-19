@@ -1,5 +1,4 @@
 * {
-
   background-color: rgb(245, 245, 245);
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -28,7 +27,6 @@
       display: none;
     }
 }
-
 
 @media screen and (max-width: 800px) {
   #title-second{
