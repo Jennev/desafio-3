@@ -19,7 +19,32 @@
   white-space: nowrap;
 }
 
+.btn-info {
+  background-color: blueviolet;
+}
+
+@media screen and (max-width: 800px) {
+    #list, #buscador, #title-princip{
+      display: none;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+  #title-second{
+    color: blue;
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+
 /*
+
+.container-none {
+  height: 100vh;
+
+  background: rgb(255, 251, 12);
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

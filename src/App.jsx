@@ -45,7 +45,7 @@ const App = () => {
 
   return (
     <div className="container-none px-4">
-      <h1 className="text-center p-3">Lista de colaboradores</h1>
+      <h1 id='title-princip' className="text-center p-3">Lista de colaboradores</h1>
       <Buscador 
         terminoBusqueda={terminoBusqueda}
         onChanges={handlerTerminoBusqueda}
@@ -60,7 +60,7 @@ const App = () => {
         </div>
         <div className="col-lg-4 col-12 d-flex justify-content-center">
           <div>
-            <h2 className="p-4">Agregar colaborador</h2>
+            <h2 id='title-second' className="p-4">Agregar colaborador</h2>
             <Formulario
               agregarColaborador={agregarColaborador}
               colaboradores={colaboradores}
