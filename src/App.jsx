@@ -45,7 +45,7 @@ const App = () => {
 
   return (
     <div className="container-none px-4">
-      <h1 id='title-princip' className="text-center p-3">Lista de colaboradores</h1>
+      <h1 id='title-princip' className="text p-3">Lista de colaboradores</h1>
       <Buscador 
         terminoBusqueda={terminoBusqueda}
         onChanges={handlerTerminoBusqueda}
